@@ -1,0 +1,86 @@
+.our-prog {
+    background: linear-gradient(135deg,#0f1fa8,#1c2ed6);
+    position: relative;
+}
+.our-prog::before{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    width: 92%;
+    height: 190px;
+    background: #FECB00;
+    z-index: 0;
+    padding: 0;
+}
+.our-program {
+    text-align: center;
+    padding: 44px;
+    z-index: 2;
+}
+
+.our-program span {
+    background: #fbfcfd;
+    color: #000000;
+    padding: 13px 20px 13px 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.our-program h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+.our-program p {
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.our-program button {
+    border-radius: 25px;
+    width: 192px;
+    height: 48px;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.our-card {
+    display:flex;
+    gap: 70px;
+    z-index: 2;
+    margin: 0 150px;
+}
+
+.card-1, .card-2, .card-3{
+    border: 1px solid #1629DB;
+    background-color: #FFFFFF;
+    margin: 0 0px 0 0px;
+    border-radius: 15px;
+    height: 400px;
+    width: 313px;
+    position: relative;
+    padding: 4px;
+}
+.card-1 img ,.card-2 img,.card-3 img{
+    height: 155px;
+    width: fit-content;
+    max-width: 166px;
+}
+.card-1 a,.card-2 a, .card-3 a {
+    /* background-color: #1629DB; */
+    /* border-radius: 25px; */
+    width: 120px;
+    height: 36px;
+    color: #111D89;
+    font-weight: bold;
+}
+
+.card-1 p,.card-2 p, .card-3 p {
+    color: #000000;
+}

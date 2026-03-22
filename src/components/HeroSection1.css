@@ -1,0 +1,16 @@
+.hero-section1-container img{
+    height: 200px;
+    width: 100%;
+}
+
+/* Gradient background (first use) */
+.hero-section1-container.gradient {
+    background: linear-gradient(135deg, #1524a9, #2335dd);
+  }
+  
+  /* White background (second use) */
+  .hero-section1-container.white img{
+    background:#eef0f7;
+    height: 170px;
+    width: 100%;
+  }
