@@ -39,13 +39,11 @@ const HeroSection = () => {
           </h1>
 
           <p className="tagline">
-            Empowering Talent, Delivering Technology.
+            Transforming Ideas into <span>Technology.</span>
           </p>
 
           <p className="description">
-            At Sonasha Technologies, we transform learners into professionals
-            through practical IT training while supporting businesses with
-            reliable technology services.
+            At Sonasha Technologies, We design and develop high-performance websites and apps that help your business grow faster.
           </p>
 
           <div className="hero-buttons">

@@ -5,12 +5,13 @@
 
 /* Gradient background (first use) */
 .hero-section1-container.gradient {
-    background: linear-gradient(135deg, #1524a9, #2335dd);
+    background: linear-gradient(180deg,  #2335dd,#1524a9);
   }
   
   /* White background (second use) */
   .hero-section1-container.white img{
-    background:#eef0f7;
+    
     height: 170px;
     width: 100%;
+    
   }
